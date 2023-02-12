@@ -20,7 +20,7 @@ function validador(tentativa) {
     RespostaEl.textContent = "O numero esta fora do escopo";
   } else if (numero === sorteado) {
     document.body.innerHTML = `
-     <h1>Você Acertou 🎉🎉🎉🎉</h1>
+     <h1>Você Acertou 🎉🎉🎉</h1>
      <h1>O numero secreto era ${sorteado}</h1>
      <button id = "jogar-novamente" class ="btn-jogar"> Jogar Novamente</button>
     `;
